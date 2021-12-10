@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:ital,wght@0,200;1,100&family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(238, 237, 236);
+}
+
+.title {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    min-width: 50vw;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    color:rgb(144, 144, 144);
+}
+
+.notes {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(144, 144, 144, 0.329);
+    padding: 1rem 0 0 0;
+    border-radius: 5px;
+    margin: 1rem;
+    max-width: 70vw;
+}
+
+.header {
+    display: flex;
+    min-width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 1rem;
+}
+
+.button {
+    display: flex;
+    min-width: 100%;
+    justify-content: flex-end;
+}
+
+.textbox {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px;
+    max-width: 70vw;
+}
+
+/* ICONS: */
+
+#add-btn {
+    border: none;
+    background-color: inherit;    
+}
+
+#delete-btn {
+    border: none;
+    background-color: inherit;  
+}
+
+.fas.fa-plus-square {
+    font-size: 30px;
+    color: rgba(108, 222, 226, 0.8);
+}
+
+.fas.fa-plus-square:hover {
+    color:rgb(47, 200, 206)
+}
+
+.fas.fa-trash {
+    font-size: 20px;
+    color:rgb(243, 116, 116);
+}
+
+.fas.fa-trash:hover {
+    color:rgb(247, 74, 74);
+}
+
+/* .fas.fa-edit {
+    font-size: 20px;
+    color:rgba(149, 103, 223, 0.493)
+}
+
+.fas.fa-check {
+    font-size: 20px;
+    color:rgba(121, 216, 113, 0.719)
+} */
+
+.date-time {
+    color:rgb(93, 91, 91);
+}
+
+/* @media screen and (max-width: 720px) {
+    .note, .textbox {
+        max-width: 70vw;
+    }
+} */
